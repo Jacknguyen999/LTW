@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank | Employee</title>
+    <link rel="shortcut icon" type="image/x-icon" href="photos/bank.svg" />
+    <link rel="stylesheet" href="/css/employeeStyle.css">
+</head>
+
+<body>
+    <form class="form-infor">
+        <h2 class="title">Thông tin nhân viên</h2>
+        <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-passport"></i></span>
+            <input class="form-control" required placeholder="Chứng minh thư" type="number">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-signature"></i></span>
+            <input class="form-control" required placeholder="Họ tên">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-birthday-cake"></i></span>
+            <input class="form-control" required type="date">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-map-marked-alt"></i></span>
+            <input class="form-control" required placeholder="Địa chỉ">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text"><i class="fab fa-codepen"></i></span>
+            <input class="form-control" required placeholder="Bậc nghề">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-dollar-sign"></i></span>
+            <input class="form-control" required placeholder="Thâm niên" type="number">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-chair"></i></span>
+            <input class="form-control" required placeholder="Vị trí công việc">
+        </div>
+        <div class="action">
+            <button class="btn btn-success">Thêm</button>
+            <a class="btn btn-dark" href="/employee">Huỷ</a>
+        </div>
+    </form>
+
+    <script src="/js/jstemplate/mdb.min.js"></script>
+    <script src="/js/jstemplate/jquery-3.5.1.min.js"></script>
+    <script src="/js/jstemplate/sweetalert2.all.min.js"></script>
+    <script src="/js/employee.js"></script>
+</body>
+
+</html>
